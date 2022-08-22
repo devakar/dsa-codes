@@ -46,3 +46,11 @@ class Solution {
         
     }
 }
+
+/**
+Time complexity:
+O(min(S, P))
+O(S.P)
+Space complexity: 
+O(1)
+*/

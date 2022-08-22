@@ -5,7 +5,7 @@ class Solution {
 
         for (int i = text.length(); i >= 0; i--){
             for (int j = pattern.length() - 1; j >= 0; j--){
-                
+
                 boolean first_match = (i < text.length() &&
                                        (pattern.charAt(j) == text.charAt(i) ||
                                         pattern.charAt(j) == '.'));
@@ -21,3 +21,10 @@ class Solution {
         return dp[0][0];
     }
 }
+
+/**
+Time complexity:
+O(T.P)
+Space complexity:
+O(T.P)
+*/
